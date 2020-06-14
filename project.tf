@@ -74,10 +74,6 @@ resource "null_resource" "nullexec2"{
 }
 
 
-output "IPAddress"{
-  value = aws_instance.myec2.public_ip
-}
-
 resource "null_resource" "nullexec3"{
   provisioner "local-exec"{
     command = "microsoftedge ${aws_instance.myec2.public_ip}"
@@ -216,3 +212,6 @@ resource "null_resource" "nullexec1"{
   depends_on = [ aws_s3_bucket_object.mybucket ]
 }
 
+output "IPAddress"{
+  value = aws_instance.myec2.public_ip
+}

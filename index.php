@@ -2,7 +2,7 @@
 <body bgcolor="orange">
 Welcome to my Cloud Site
 </br>
-<img src="https://image1url/image1.jpg" alt="Here it Comes one of the Songs my Brother Likes" width="800" height="500">
+<img src="https://myimage/hello width="800" height="500">
 <pre>
 </br>
 This is one of songs my brother likes  

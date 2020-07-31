@@ -5,7 +5,7 @@ Welcome to my Cloud Site
 <img src="https://cloudfrontip/imagename" width=800 height=500>
 <pre>
 </br>
-This is one of songs my brother likes  
+It works Bro, enjoy the nature spread   
 Some information data about Cloud instance 
 <?php
 print `ifconfig`;
